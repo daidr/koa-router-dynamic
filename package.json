@@ -1,0 +1,37 @@
+{
+  "name": "koa-router-dynamic",
+  "description": "A patch for @koa/router to search for or remove routes without restarting the process.",
+  "version": "0.0.1",
+  "author": "daidr <daidr@daidr.me>",
+  "bugs": {
+    "url": "https://github.com/daidr/koa-router-dynamic/issues",
+    "email": "daidr@daidr.me"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@koa/router": "^10.1.1",
+    "expect.js": "^0.3.1",
+    "koa": "^2.11.0",
+    "mocha": "^7.0.1",
+    "supertest": "^4.0.2"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "homepage": "https://github.com/daidr/koa-router-dynamic",
+  "keywords": [
+    "koa",
+    "middleware",
+    "route",
+    "router"
+  ],
+  "license": "MIT",
+  "main": "patch.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daidr/koa-router-dynamic.git"
+  },
+  "scripts": {
+    "test": "mocha test/**/*.js"
+  }
+}
